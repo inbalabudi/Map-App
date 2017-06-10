@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Search MAP</title>
+    <link rel="stylesheet" href="searchmap.css">
+    
+</head>
+<body>
+    
+<!--                  //Second page//-->
+<!--                      //the Map//-->
+                            
+                            
+<div class="main-container">
+   
+        <div class="header-box">
+            <h1 class="map-page-header">Look for Location reviews </h1>
+        </div>
+
+        <div class="input-button-box">
+               <input class="input-box" id="user-city-input"  type="text"
+               placeholder=" Enter a location">
+               <button class="travel-btn" id="city-select">⛵</button>
+        </div>
+     
+        <div class="map" id="map"></div>  
+        <div class="map-reviews-container">
+        <div class="map-reviews-box" id="map-reviews-box">
+                         
+<!--
+             <div class="map-form-done">
+                 
+                  <div class="pmain-map">
+                        <img class="map-profil-box" src="" alt=""/>
+                  </div> 
+                  <h5 class="review-done-title"></h5>
+                  <span class="topic"></span><br>
+                  <div class="review-footer"><span class="anchor-stamt"> ⚓  </span>  By:</div>
+             </div>
+-->
+
+        </div>
+        </div>
+    
+    <footer class="map-page-footer"></footer>
+    
+</div>
+   
+<script src="searchmap.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCr3NwBW2nid77QGgdDvSy9ri78WG6DOBk&callback=initMap&libraries=places"
+            async defer></script>     
+        
+</body>
+</html>

@@ -1,0 +1,159 @@
+
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px);
+/*font-family: 'Slabo 27px', serif;*/
+@import url(https://fonts.googleapis.com/css?family=Merriweather:900italic,400italic);
+/*font-family: 'Merriweather', serif;*/
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
+/* font-family: 'Shadows Into Light', cursive;*/
+            
+/*                //First page //*/
+
+* {
+    
+        box-sizing: border-box;
+    
+}
+
+.html {
+    
+        height: 100%;
+    
+}
+
+.line-container {
+
+        border: 1px #eeffb4 solid;
+        background-color: rgb(241, 255, 241);
+        padding: 15px;
+        border-radius: 1%;
+        font-family: 'Merriweather', serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 98vh;
+        outline-width: thin;
+        outline-color: rgba(114, 206, 255, 0.67);
+        outline-style: double;
+
+}
+
+.container {
+    
+        border: 5px rgb(255, 255, 255) solid;
+        font-family: 'Merriweather', serif; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-color: rgb(253, 255, 216);
+/*        background-color: rgba(231, 255, 213, 0.96);*/
+        border-radius: 39%;
+        width: 50vw;
+        height: 60vh;
+        box-shadow: -1px 1px 1px 1px rgba(175, 255, 193, 0.38);
+        
+    
+ }
+
+.user-form-box {
+
+        border:4px rgb(255, 202, 156) solid;
+        border-radius: 40%;
+        display: flex;
+        flex-grow: 1;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        max-height: 90%;
+        background-color: #b4dcff;
+        color: #343434;
+        box-shadow: -1px 1px 3px 0px rgba(191, 212, 197, 0.34);
+        text-shadow: 1px 1px 1px rgba(136, 136, 136, 0.37), 
+                                 1px 2px 1px rgba(139, 187, 253, 0.67);
+    
+    
+}
+
+
+
+.header {
+    
+        font-size: 1.7rem;
+        align-self: stretch;
+        text-shadow: 2px 2px 2px rgba(136, 136, 136, 0.26), 
+                                 2px 3px 2px rgba(139, 187, 253, 0.85);
+    
+}
+
+.user-name-header{
+    
+        font-size: 1rem;
+        align-self: stretch;
+        text-shadow: 1px 1px 1px rgba(136, 136, 136, 0.37), 
+                                 1px 2px 1px rgba(139, 187, 253, 0.67);
+    
+}
+  
+.user-id-header{
+
+        font-size: 1rem;
+        align-self: stretch;
+        text-shadow: 1px 1px 1px rgba(136, 136, 136, 0.37), 
+                                 1px 2px 1px rgba(139, 187, 253, 0.67);
+    
+}
+
+.user-name-box {
+    
+        border: 3px rgba(255, 168, 168, 0.87) solid;
+        border-radius: 8%;
+        width: 45%;
+        height: 10%;
+        text-align: center;
+        box-shadow: -2px 2px 4px 5px rgba(142, 211, 255, 0.88);
+
+}
+
+.user-id-box {
+    
+        border: 3px rgba(255, 168, 168, 0.87) solid;
+        border-radius: 8%;
+        width: 45%;
+        height: 10%;
+        text-align: center;
+        box-shadow: -2px 2px 4px 5px rgba(142, 211, 255, 0.88);
+
+}
+
+.btn-box {
+    
+        border: 3px rgb(255, 255, 255) solid;
+        height: 10%;
+        min-width: 15%;
+        border-radius: 10%;
+        display: flex;
+        background-color: rgba(190, 225, 255, 0.81);
+        align-items: center;
+        justify-content: center;
+        box-shadow: -2px 2px 4px 5px rgba(142, 211, 255, 0.88);
+    
+}
+
+.log-btn {
+    
+        border: 1px black solid;
+        background-color: rgba(0, 85, 160, 0.74);
+        flex-grow: 1;
+        color: #fcffa5;
+        height: 100%;
+        font-size: 1rem;
+        font-weight: 700;
+        border-radius: 7%;
+        font-family: 'Merriweather', serif;
+        width: 100%;
+}
+
