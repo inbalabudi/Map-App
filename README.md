@@ -1,2 +1,3 @@
 # Map-App
-Touring Reviews around the world
+Client side project: 
+Making an application for Touring Reviews around the world using Google Maps API.
